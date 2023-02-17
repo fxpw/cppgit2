@@ -72,7 +72,7 @@ Run the following commands to build `cppgit2`.
 **NOTE**: This also builds `libgit2` from source. `libgit2` is a submodule in the `ext/` directory that points to a stable release commit, e.g., [v1.0.0](https://github.com/libgit2/libgit2/releases/tag/v1.0.0).
 
 ```bash
-git clone --recurse-submodules -j8 https://github.com/p-ranav/cppgit2
+git clone --recurse-submodules -j8 https://github.com/fxpw/cppgit2
 cd cppgit2
 mkdir build && cd build
 cmake .. && make
